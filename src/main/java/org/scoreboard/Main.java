@@ -1,8 +1,8 @@
 package org.scoreboard;
 
-import score.Match;
-import score.Scoreboard;
-import score.Team;
+import lib.Match;
+import lib.Scoreboard;
+import lib.Team;
 
 import java.util.UUID;
 

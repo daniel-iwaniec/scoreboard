@@ -1,4 +1,4 @@
-package score;
+package lib;
 
 public final class Team {
     private final String name;

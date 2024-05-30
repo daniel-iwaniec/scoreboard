@@ -1,4 +1,4 @@
-package score;
+package lib;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package score;
+package lib;
 
 import java.util.*;
 

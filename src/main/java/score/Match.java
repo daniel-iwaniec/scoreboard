@@ -2,7 +2,7 @@ package score;
 
 import java.time.LocalTime;
 
-public class Match {
+public final class Match {
     private final Team homeTeam;
     private final Team awayTeam;
     private final LocalTime startTime;
@@ -13,6 +13,11 @@ public class Match {
         this.startTime = LocalTime.now();
     }
 
+    public void updateScore(int homeTeamScore, int awayTeamScore) {
+        homeTeam.setScore(homeTeamScore);
+        awayTeam.setScore(awayTeamScore);
+    }
+
     public Integer compareTo(Match match) {
         int comparison = match.getTotalScore().compareTo(this.getTotalScore());
         if (comparison == 0) {
@@ -20,11 +25,6 @@ public class Match {
         }
 
         return comparison;
-    }
-
-    public void updateScore(int homeTeamScore, int awayTeamScore) {
-        homeTeam.setScore(homeTeamScore);
-        awayTeam.setScore(awayTeamScore);
     }
 
     public String toString() {

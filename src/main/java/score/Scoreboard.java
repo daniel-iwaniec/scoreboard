@@ -2,7 +2,7 @@ package score;
 
 import java.util.*;
 
-public class Scoreboard {
+public final class Scoreboard {
     private final HashMap<UUID, Match> matches;
 
     public Scoreboard() {

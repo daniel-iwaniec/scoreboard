@@ -1,6 +1,6 @@
 package score;
 
-public class Team {
+public final class Team {
     private final String name;
     private Integer score;
 

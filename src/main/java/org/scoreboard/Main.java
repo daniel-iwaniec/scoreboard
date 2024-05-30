@@ -1,4 +1,4 @@
-package org.sportradar;
+package org.scoreboard;
 
 import score.Match;
 import score.Scoreboard;
